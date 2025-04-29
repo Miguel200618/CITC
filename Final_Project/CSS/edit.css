@@ -266,7 +266,7 @@ img {
 
 #column {
    width: 40px;
-   padding: auto;
+   padding: 10px;
    margin: auto;
 }
 
@@ -370,7 +370,7 @@ footer {
     
 
     .bigpic {
-        display: center;
+        justify-content: center;
         padding: 2px;
         margin: 0 auto;
         width: 90%;
@@ -501,7 +501,7 @@ footer {
         margin-bottom: 20px;
     }
     .pink-neon{
-        display: center;
+        justify-content: center;
     }
   }
   
