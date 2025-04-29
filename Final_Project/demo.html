@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/edit.css">
+  <link rel="icon" href="imagenes/logo.jpg" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <title>Demo | AI Chatbot Portfolio</title>
+</head>
+
+<body>
+    <div id="container">
+       <header>
+    <h1>Chatbot Demo</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a class="neon-text" href="index.html">Home</a></li>
+        <li><a class="neon-text" href="case.html">Use Cases</a></li>
+        <li><a class="neon-text" href="demo.html">Demo</a></li>
+        <li><a class="neon-text" href="explain.html">How It Works</a></li>
+        <li><a class="neon-text" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h2>Test the Real Estate AI Chatbot</h2>
+    <p>Use the chatbot in the bottom right corner to ask questions about real estate services. This demo highlights how automation can assist with lead capture, home estimates, appointment settings, and general inquiries.</p>
+    <p>Try asking: "Can I get a home estimate?" or "Can I schedule an appointment?"</p>
+  </section>
+  <div class="container">
+    <img src="imagenes/realestateai.jpg" alt="realestateai" class="pink-neon">
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Miguel De La Cruz | AI Assistant Portfolio</p>
+  </footer>
+
+  
+    </div>
+  <script type="text/javascript">
+    (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
+          window.voiceflow.chat.load({
+            verify: { projectID: '67f31413efa8af9b52132369' },
+            url: 'https://general-runtime.voiceflow.com',
+            versionID: 'production',
+            voice: {
+              url: "https://runtime-api.voiceflow.com"
+            }
+          });
+        }
+        v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+  </script> 
+</body>
+</html>
